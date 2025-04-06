@@ -3,4 +3,4 @@ A comprehensive Java-based ERP system featuring Mental Health Support, GPA Predi
 
 To execute:
 1) Download all .java files
-2) Compile all .java files and run Main.java file
+2) Compile all .java files and run MainMenu.java file
