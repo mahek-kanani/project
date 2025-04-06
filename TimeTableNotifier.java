@@ -6,7 +6,7 @@ import javax.swing.border.*;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 
-public class TimetableManager extends JFrame {
+public class TimeTableNotifier extends JFrame {
     private JTable timetableTable;
     private DefaultTableModel tableModel;
     private JTextField courseField, dayField, timeField;
@@ -14,7 +14,7 @@ public class TimetableManager extends JFrame {
     private JLabel notificationLabel;
     private Timer notificationTimer;
 
-    public TimetableManager() {
+    public TimeTableNotifier() {
         setTitle("Timetable Manager");
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
